@@ -1,6 +1,6 @@
 # IPA tools for Godot Engine
 
-A multipurpose IPA editor for people who don't own Macs!
+A multipurpose IPA editor/builder for people who don't own Macs!
 
 Ever wanted to stop hopping between your Mac and Windows/Linux PCs when developing an iOS Project? This is the project for you!
 
