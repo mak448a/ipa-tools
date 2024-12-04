@@ -49,7 +49,7 @@ def create_new_ipa() -> str:
         path = inquirer.text(message="Enter path to folder of XCodeProject:").execute()
         try:
             print("Zipping your project...")
-            shutil.make_archive("xcodeproject", "zip", path)
+            shutil.make_archive("tempxcodeproject", "zip", path)
             print("Zipped! Now uploading to Dropbox. THIS MAY TAKE A LONG TIME!!!")
 
             link = upload_file("tempxcodeproject.zip", "/xcodeproject.zip")
