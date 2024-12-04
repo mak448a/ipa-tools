@@ -24,4 +24,3 @@ def replace_pck(ipa_path: str) -> None:
                     tmp_ipa.writestr(replacement_path, file.read())
 
     os.replace("temp_ipa.ipa", ipa_path)
-    os.remove("temp_ipa.ipa")
